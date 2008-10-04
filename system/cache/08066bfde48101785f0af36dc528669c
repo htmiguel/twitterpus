@@ -1,0 +1,94 @@
+1217978171TS--->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+	<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+	<head>
+		<title>Artists - Ghostly International</title>
+		<meta name="description" content="Browse the rosters of Ghostly International and sister label, Spectral Sound." />
+		<meta name="keywords" content="Free MP3 Downloads, Techno, House, Hip Hop, Electronic, Minimal, Avant-Pop, SMM, Ghostly, Ghostly International, DJ, Matthew Dear, Dabrye, The Chap, School Of Seven Bells, Sam Valenti IV, Detroit, Ann Arbor, Midwest" />		
+		<script language='javascript' type='text/javascript' src='http://jqueryjs.googlecode.com/files/jquery-1.2.3.min.js'></script>
+		<script language='javascript' type='text/javascript' src='http://static.ghostly.com/scripts/script.js'></script>
+		<link media='screen' rel='stylesheet' href='http://static.ghostly.com/css/reset.css' media='screen' />
+		<link media='screen' rel='stylesheet' href='http://static.ghostly.com/css/grids.css' media='screen' />
+		<link media='screen' rel='stylesheet' href='http://static.ghostly.com/css/style.css' media='screen' />
+	  	<link rel="icon" type="image/x-icon" href="favicon.ico" />
+	  	<link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
+	  	<link rel="apple-touch-icon" type="image/x-icon" href="apple-touch-icon.png" />
+		<link rel="alternate" type="application/rss+xml" title="Ghostly International RSS" href="http://feeds.feedburner.com/ghostly/news" />
+  		<!--[if lt IE 7]>
+  		<link href="http://static.ghostly.com/css/public_ie6.css" media="screen" rel="stylesheet" type="text/css" />
+  		<![endif]-->
+	</head>
+	<body>
+		<script type="text/javascript">
+		var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+		document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+		</script>
+		<script type="text/javascript">
+		var pageTracker = _gat._getTracker("UA-1409547-5");
+		pageTracker._initData();
+		pageTracker._trackPageview();
+		</script>
+				
+		<div class="container">	
+			<div id="wrapper">
+<div id="header">
+	<div id="box">
+			<div id="headerLogo">
+				<a href="/" title="home"><img src="http://static.ghostly.com/images/assets/launch_header.gif" border="0" /></a>
+			</div>
+			<ul>
+				<li><a href="http://ghostly.com/releases">Releases</a> |</li>
+				<li><a href="http://ghostly.com/artists">Artists</a> |</li>		
+				<li><a href="http://ghostly.com/live">Live</a> |</li>
+				<li><a id="podcast-link" href="http://ghostly.com/#podcast">Podcasts</a> |</li>
+				<li><a href="http://theghostlystore.com" title="store" onClick="javascript: pageTracker._trackPageview('outbound/webstore-globalnav');" target="blank">Store</a></li>						
+			</ul>
+	</div>
+</div>
+	<script type="text/javascript">
+$(document).ready(function(){
+	prepareTabs();
+	var uri = document.location.href;
+	var str = uri.split("#")
+	if(str[1]){
+		setTab(str[1],'artist');
+	}
+});
+
+
+</script>
+
+<div id="ptitle">
+	<div id="tabs">
+		<ul>
+			<li class="ghostly-logo"><span id="t1" class="nonlink" title='Ghostly'>Ghostly Artists</span></li>
+			<li class="spectral-logo secondary-li"><a id="t2" href="#Spectral" class="tab artist" title='Spectral'>Spectral Artists</a></li>
+		</ul>
+	</div>
+</div>
+
+<div class="full browse-view">
+	<div id="gi" class="browse Ghostly">
+		<ul class='artist-browse'><li class='artist-list'><a href='/artists/aeroc'><img src='http://static.ghostly.com//images/artists/61/thumbs_gi_aeroc.jpg' /><span class='artist'>Aeroc</span></a></li><li class='artist-list'><a href='/artists/ben-benjamin'><img src='http://static.ghostly.com//images/artists/33/postprior3_detail.jpg' /><span class='artist'>Ben Benjamin</span></a></li><li class='artist-list'><a href='/artists/cepia'><img src='http://static.ghostly.com//images/artists/3/thumbs_gi_cepia.jpg' /><span class='artist'>Cepia</span></a></li><li class='artist-list'><a href='/artists/christopher-willits'><img src='http://static.ghostly.com//images/artists/42/thumbs_gi_cwillits.jpg' /><span class='artist'>Christopher Willits</span></a></li><li class='artist-list'><a href='/artists/dabrye'><img src='http://static.ghostly.com//images/artists/13/thumbs_gi_dabrye.jpg' /><span class='artist'>Dabrye</span></a></li><li class='artist-list'><a href='/artists/daniel-wang'><img src='http://static.ghostly.com//images/artists/55/thumbs_gi_wang.jpg' /><span class='artist'>Daniel Wang</span></a></li><li class='artist-list'><a href='/artists/dykehouse'><img src='http://static.ghostly.com//images/artists/14/thumbs_gi_dyke.jpg' /><span class='artist'>Dykehouse</span></a></li><li class='artist-list'><a href='/artists/jdsy'><img src='http://static.ghostly.com//images/artists/68/thumbs_gi_jdsy2.jpg' /><span class='artist'>JDSY</span></a></li><li class='artist-list'><a href='/artists/jeffrey-sfire'><img src='http://static.ghostly.com//images/artists/65/thumbs_gi_sfire.jpg' /><span class='artist'>Jeffrey Sfire</span></a></li><li class='artist-list'><a href='/artists/kill-memory-crash'><img src='http://static.ghostly.com//images/artists/15/thumbs_gi_kill.gif' /><span class='artist'>Kill Memory Crash</span></a></li><li class='artist-list'><a href='/artists/kiln'><img src='http://static.ghostly.com//images/artists/19/kiln2_detail.jpg' /><span class='artist'>Kiln</span></a></li><li class='artist-list'><a href='/artists/lawrence'><img src='http://static.ghostly.com//images/artists/57/thumbs_gi_lawrence.jpg' /><span class='artist'>Lawrence</span></a></li><li class='artist-list'><a href='/artists/lusine'><img src='http://static.ghostly.com//images/artists/17/lusine_sm1.jpg' /><span class='artist'>Lusine</span></a></li><li class='artist-list'><a href='/artists/matthew-dear'><img src='http://static.ghostly.com//images/artists/4/thumbs_gi_mdear.jpg' /><span class='artist'>Matthew Dear</span></a></li><li class='artist-list'><a href='/artists/michna'><img src='http://static.ghostly.com//images/artists/137/thumbs_gi_michna.jpg' /><span class='artist'>Michna</span></a></li><li class='artist-list'><a href='/artists/midwest-product'><img src='http://static.ghostly.com//images/artists/23/thumbs_gi_mwp.jpg' /><span class='artist'>Midwest Product</span></a></li><li class='artist-list'><a href='/artists/mobius-band'><img src='http://static.ghostly.com//images/artists/7/thumbs_gi_mobius.jpg' /><span class='artist'>Mobius Band</span></a></li><li class='artist-list'><a href='/artists/north-valley-subconscious-orchestra'><img src='http://static.ghostly.com//images/artists/66/thumbs_gi_nvso.jpg' /><span class='artist'>North Valley Subconscious Orchestra</span></a></li><li class='artist-list'><a href='/artists/school-of-seven-bells'><img src='http://static.ghostly.com//images/artists/148/school_browse_sm.jpg' /><span class='artist'>School of Seven Bells</span></a></li><li class='artist-list'><a href='/artists/skeletons'><img src='http://static.ghostly.com//images/artists/43/thumbs_gi_skel.jpg' /><span class='artist'>Skeletons & The Kings Of All Cities</span></a></li><li class='artist-list'><a href='/artists/solvent'><img src='http://static.ghostly.com//images/artists/29/thumb_gi_solvent2.jpg' /><span class='artist'>Solvent</span></a></li><li class='artist-list'><a href='/artists/tadd-mullinix'><img src='http://static.ghostly.com//images/artists/21/thumbs_gi_tadd.jpg' /><span class='artist'>Tadd Mullinix</span></a></li><li class='artist-list'><a href='/artists/the-chap'><img src='http://static.ghostly.com//images/artists/114/thumbs_gi_chap.jpg' /><span class='artist'>The Chap</span></a></li><li class='artist-list'><a href='/artists/twine'><img src='http://static.ghostly.com//images/artists/115/thumbs_gi_twine.jpg' /><span class='artist'>Twine</span></a></li><li class='artist-list'><a href='/artists/tycho'><img src='http://static.ghostly.com//images/artists/34/tycho2_detail.jpg' /><span class='artist'>Tycho</span></a></li></ul>	</div>
+	<div id="spc" class="hide browse Spectral">
+		<ul class='artist-browse'><li class='artist-list'><a href='/artists/2-am-fm'><img src='http://static.ghostly.com//images/artists/46/thumb_spc_2amfm1.gif' /><span class='artist'>2 AM/FM</span></a></li><li class='artist-list'><a href='/artists/audion'><img src='http://static.ghostly.com//images/artists/5/thumb_spc_audion.jpg' /><span class='artist'>Audion</span></a></li><li class='artist-list'><a href='/artists/bodycode'><img src='http://static.ghostly.com//images/artists/6/thumb_spc_bodycode.gif' /><span class='artist'>Bodycode</span></a></li><li class='artist-list'><a href='/artists/broker-dealer'><img src='http://static.ghostly.com//images/artists/62/thumb_spc_brokerdealer.jpg' /><span class='artist'>Broker/Dealer</span></a></li><li class='artist-list'><a href='/artists/daso'><img src='http://static.ghostly.com//images/artists/28/thumb_spc_daso.gif' /><span class='artist'>Daso</span></a></li><li class='artist-list'><a href='/artists/daso-and-pawas'><img src='http://static.ghostly.com//images/artists/72/thumb_pawasdaso.jpg' /><span class='artist'>Daso & Pawas</span></a></li><li class='artist-list'><a href='/artists/derek-plaslaiko'><img src='http://static.ghostly.com//images/artists/25/thumb_spc_plaslaiko.jpg' /><span class='artist'>Derek Plaslaiko</span></a></li><li class='artist-list'><a href='/artists/geoff-white'><img src='http://static.ghostly.com//images/artists/12/thumb_spc_white.jpg' /><span class='artist'>Geoff White</span></a></li><li class='artist-list'><a href='/artists/hieroglyphic-being'><img src='http://static.ghostly.com//images/artists/63/thumb_spc_hiero.jpg' /><span class='artist'>Hieroglyphic Being</span></a></li><li class='artist-list'><a href='/artists/james-t-cotton'><img src='http://static.ghostly.com//images/artists/9/thumb_spc_cotton.jpg' /><span class='artist'>James T. Cotton</span></a></li><li class='artist-list'><a href='/artists/jeff-samuel'><img src='http://static.ghostly.com//images/artists/64/thumb_spc_samuel.jpg' /><span class='artist'>Jeff Samuel</span></a></li><li class='artist-list'><a href='/artists/jonas-kopp'><img src='http://static.ghostly.com//images/artists/39/thumb_spc_kopp.jpg' /><span class='artist'>Jonas Kopp</span></a></li><li class='artist-list'><a href='/artists/kate-simko'><img src='http://static.ghostly.com//images/artists/44/kate1_thumb.jpg' /><span class='artist'>Kate Simko</span></a></li><li class='artist-list'><a href='/artists/osborne'><img src='http://static.ghostly.com//images/artists/2/thumb_spc_osborne.jpg' /><span class='artist'>Osborne</span></a></li><li class='artist-list'><a href='/artists/par-grindvik'><img src='http://static.ghostly.com//images/artists/30/thumb_spc_grindvik.jpg' /><span class='artist'>Par Grindvik</span></a></li><li class='artist-list'><a href='/artists/peter-grummich'><img src='http://static.ghostly.com//images/artists/37/thumb_spc_grummich.jpg' /><span class='artist'>Peter Grummich</span></a></li><li class='artist-list'><a href='/artists/ryan-elliott'><img src='http://static.ghostly.com//images/artists/8/thumb_spc_ryan.jpg' /><span class='artist'>Ryan Elliott</span></a></li><li class='artist-list'><a href='/artists/sami-koivikko'><img src='http://static.ghostly.com//images/artists/45/thumb_spc_sami.jpg' /><span class='artist'>Sami Koivikko</span></a></li><li class='artist-list'><a href='/artists/seth-troxler'><img src='http://static.ghostly.com//images/artists/31/thumb_spc_seth.jpg' /><span class='artist'>Seth Troxler</span></a></li></ul>	</div>
+</div>
+		<div class="porque"></div>
+
+<div id="footer">
+	<ul id="footer_left">
+		<li><a href="http://ghostly.com/about" title="about">About Ghostly International</a> |</li>
+		<li><a href="http://ghostly.com/contact" title="contact">Contact</a> |</li>		
+		<li><a href="http://boycatbird.com" title="Boy Cat Bird">Boy Cat Bird</a> |</li>				
+		<li><a href="http://theghostlystore.com" title="store" target="blank" onClick="javascript: pageTracker._trackPageview('outbound/webstore-footer');">Store</a></li>
+	</ul>
+	<ul id="footer_right">
+		<li>Site contents are copyright Ghostly International 1999-2008</li>
+	</ul>						
+</div>
+			</div>
+		</div>
+		</body>
+		</html>
+	

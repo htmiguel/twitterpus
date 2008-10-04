@@ -1,0 +1,192 @@
+AddHandler php5-script .php
+Options +FollowSymLinks
+ErrorDocument 404 /404.html
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^.*$ index.php$1 [L]
+deny from 71.41.200.78
+
+# REDIRECTS FROM GHOSTLY 1.0 -------------------------------------
+
+# IMAGE & WIMPY REFERENCES TO THE TEMP DIRECTORY
+Redirect permanent /1.0/img/ http://ghostly.com/oldsite/1.0/img/
+#Redirect permanent /streaming/ http://ghostly.com/oldsite/streaming/
+Redirect permanent /releases/alpinisms http://ghostly.com
+
+# MISC REFERENCES
+Redirect permanent /mp3 http://ghostly.com
+Redirect permanent /press-room http://ghostly.com/pressroom
+Redirect permanent /ghostlycasts http://static.ghostly.com/media/mp3/ghostlycasts
+Redirect permanent /media http://ghostly.com
+Redirect permanent /digital http://ghostly.com
+Redirect permanent /audio http://ghostly.com
+Redirect permanent /ghostlycasts http://ghostly.com
+Redirect permanent /2.0 http://ghostly.com
+
+
+# ARTISTS
+Redirect permanent /1.0/artists/dabrye/index.shtml http://ghostly.com/artists/dabrye
+Redirect permanent /1.0/artists/dear/index.shtml http://ghostly.com/artists/matthew-dear
+Redirect permanent /1.0/artists/dykehouse/index.shtml http://ghostly.com/artists/dykehouse
+Redirect permanent /1.0/artists/jdsy/index.shtml http://ghostly.com/artists/jdsy
+Redirect permanent /1.0/artists/kill/index.shtml http://ghostly.com/artists/kill
+Redirect permanent /1.0/artists/lawrence/index.shtml http://ghostly.com/artists/lawrence
+Redirect permanent /1.0/artists/manier/index.shtml http://ghostly.com/artists/charles-manier
+Redirect permanent /1.0/artists/midwestproduct/index.shtml http://ghostly.com/artists/midwest-product
+Redirect permanent /1.0/artists/mobiusband/index.shtml http://ghostly.com/artists/mobius-band
+Redirect permanent /1.0/artists/postprior/index.shtml http://ghostly.com/artists/post-prior
+Redirect permanent /1.0/artists/skeletons/index.shtml http://ghostly.com/artists/skeletons-and-the-kings-of-all-cities
+Redirect permanent /1.0/artists/solvent/index.shtml http://ghostly.com/artists/solvent
+Redirect permanent /1.0/artists/wang/index.shtml http://ghostly.com/artists/daniel-wang
+Redirect permanent /1.0/artists/sfire/index.shtml http://ghostly.com/artists/sfire
+Redirect permanent /1.0/artists/aeroc/index.shtml http://ghostly.com/artists/aeroc
+Redirect permanent /1.0/artists/cepia/index.shtml http://ghostly.com/artists/cepia
+Redirect permanent /1.0/artists/kiln/index.shtml http://ghostly.com/artists/kiln
+Redirect permanent /1.0/artists/lusine/index.shtml http://ghostly.com/artists/lusine
+Redirect permanent /1.0/artists/tadd/index.shtml http://ghostly.com/artists/tadd-mullinex
+Redirect permanent /1.0/artists/nvso/index.shtml http://ghostly.com/artists/north-valley-subconcious-orchestra
+Redirect permanent /1.0/artists/twine/index.shtml http://ghostly.com/artists/twine
+Redirect permanent /1.0/artists/tycho/index.shtml http://ghostly.com/artists/tycho
+Redirect permanent /1.0/artists/willits/index.shtml http://ghostly.com/artists/christopher-willits
+Redirect permanent /1.0/artists/2amfm/index.shtml http://ghostly.com/artists/2-am-fm
+Redirect permanent /1.0/artists/aneurysm/index.shtml http://ghostly.com/artists/bryan-aneurysm
+Redirect permanent /1.0/artists/audion/index.shtml http://ghostly.com/artists/audion
+Redirect permanent /1.0/artists/bodycode/index.shtml http://ghostly.com/artists/bodycode
+Redirect permanent /1.0/artists/daso/index.shtml http://ghostly.com/artists/daso
+Redirect permanent /1.0/artists/brokerdealer/index.shtml http://ghostly.com/artists/broker-dealer
+Redirect permanent /1.0/artists/cotton/index.shtml http://ghostly.com/artists/james-cotton
+Redirect permanent /1.0/artists/grindvik/index.shtml http://ghostly.com/artists/par-grindvik
+Redirect permanent /1.0/artists/grummich/index.shtml http://ghostly.com/artists/peter-grummich
+Redirect permanent /1.0/artists/hiero/index.shtml http://ghostly.com/artists/hiero
+Redirect permanent /1.0/artists/osborne/index.shtml http://ghostly.com/artists/osborne
+Redirect permanent /1.0/artists/koivikko/index.shtml http://ghostly.com/artists/sami-koivikko
+Redirect permanent /1.0/artists/samuel/index.shtml http://ghostly.com/artists/jeff-samuel
+Redirect permanent /1.0/artists/simko/index.shtml http://ghostly.com/artists/kate-simko
+Redirect permanent /1.0/artists/troxler/index.shtml http://ghostly.com/artists/seth-troxler
+Redirect permanent /1.0/artists/white/index.shtml http://ghostly.com/artists/geoff-white
+Redirect permanent /1.0/artists/elliott/index.shtml http://ghostly.com/artists/ryan-elliott
+Redirect permanent /1.0/artists/derek/index.shtml http://ghostly.com/artists/derek-plaslaiko
+
+# GHOSTLY ALBUMS
+Redirect permanent /1.0/ghostly/gi72.shtml http://ghostly.com/releases/mega-breakfast
+Redirect permanent /1.0/ghostly/gi71.shtml http://ghostly.com/releases/adage-of-known
+Redirect permanent /1.0/ghostly/gi70.shtml http://ghostly.com/releases/demonstration-tape
+Redirect permanent /1.0/ghostly/gi69.shtml http://ghostly.com/releases/heaven
+Redirect permanent /1.0/ghostly/gi68.shtml http://ghostly.com/releases/podgelism
+Redirect permanent /1.0/ghostly/gi67.shtml http://ghostly.com/releases/podgelism-select-remixes
+Redirect permanent /1.0/ghostly/gi66.shtml http://ghostly.com/releases/don-and-sherri
+Redirect permanent /1.0/ghostly/gi65X.shtml http://ghostly.com/releases/asa-breed-black-edition
+Redirect permanent /1.0/ghostly/gi65.shtml http://ghostly.com/releases/asa-breed
+Redirect permanent /1.0/ghostly/gi64.shtml http://ghostly.com/releases/deserter
+Redirect permanent /1.0/ghostly/gi63.shtml http://ghostly.com/releases/get-dirty
+Redirect permanent /1.0/ghostly/gi62.shtml http://ghostly.com/releases/natura-morta
+Redirect permanent /1.0/ghostly/gi61.shtml http://ghostly.com/releases/the-many-moods
+Redirect permanent /1.0/ghostly/gi59.shtml http://ghostly.com/releases/violets
+Redirect permanent /1.0/ghostly/gi58.shtml http://ghostly.com/releases/lucas
+Redirect permanent /1.0/ghostly/gi57.shtml http://ghostly.com/releases/emerald
+Redirect permanent /1.0/ghostly/gi56.shtml http://ghostly.com/releases/dusker
+Redirect permanent /1.0/ghostly/gi55.shtml http://ghostly.com/releases/two-three-instrumentals
+Redirect permanent /1.0/ghostly/gi54.shtml http://ghostly.com/releases/surf-boundaries
+Redirect permanent /1.0/ghostly/gi53.shtml http://ghostly.com/releases/the-loving-sounds-of-static
+Redirect permanent /1.0/ghostly/gi52.shtml http://ghostly.com/releases/right-king-of-nothing
+Redirect permanent /1.0/ghostly/gi51.shtml http://ghostly.com/releases/idol-tryouts-two
+Redirect permanent /1.0/ghostly/gi50.shtml http://ghostly.com/releases/two-three
+Redirect permanent /1.0/ghostly/gi49.shtml http://ghostly.com/releases/air
+Redirect permanent /1.0/ghostly/gi48.shtml http://ghostly.com/releases/the-o
+Redirect permanent /1.0/ghostly/gi47.shtml http://ghostly.com/releases/inside-out
+Redirect permanent /1.0/ghostly/gi46.shtml http://ghostly.com/releases/git
+Redirect permanent /1.0/ghostly/gi45.shtml http://ghostly.com/releases/additional-productions-vol-1
+Redirect permanent /1.0/ghostly/gi43.shtml http://ghostly.com/releases/elevtors-and-oscillators
+Redirect permanent /1.0/ghostly/gi42.shtml http://ghostly.com/releases/american-automatic
+Redirect permanent /1.0/ghostly/gi41.shtml http://ghostly.com/releases/city-vs-country
+Redirect permanent /1.0/ghostly/gi40.shtml http://ghostly.com/releases/crash-v8
+Redirect permanent /1.0/ghostly/gi38.shtml http://ghostly.com/releases/think-like-us
+Redirect permanent /1.0/ghostly/gi37.shtml http://ghostly.com/releases/serial-hodgepodge
+Redirect permanent /1.0/ghostly/gi36.shtml http://ghostly.com/releases/spark
+Redirect permanent /1.0/ghostly/gi35.shtml http://ghostly.com/releases/apples-and-synthesizers
+Redirect permanent /1.0/ghostly/gi34.shtml http://ghostly.com/releases/berin-sunrise
+Redirect permanent /1.0/ghostly/gi33.shtml http://ghostly.com/releases/midrange
+Redirect permanent /1.0/ghostly/gi31.shtml http://ghostly.com/releases/dowry
+Redirect permanent /1.0/ghostly/gi30.shtml http://ghostly.com/releases/viscous-solid
+Redirect permanent /1.0/ghostly/gi29.shtml http://ghostly.com/releases/smm-vol-two
+Redirect permanent /1.0/ghostly/gi28.shtml http://ghostly.com/releases/sunbox
+Redirect permanent /1.0/ghostly/gi27.shtml http://ghostly.com/releases/flat-remixes
+Redirect permanent /1.0/ghostly/gi26.shtml http://ghostly.com/releases/never-forget-technasty-rmx
+Redirect permanent /1.0/ghostly/gi25.shtml http://ghostly.com/releases/game-over
+Redirect permanent /1.0/ghostly/gi22-23.shtml http://ghostly.com/releases/radio-ga-ga-pt-one
+Redirect permanent /1.0/ghostly/gi21.shtml http://ghostly.com/releases/chain-smoking
+Redirect permanent /1.0/ghostly/gi19.shtml http://ghostly.com/releases/smm-vol-one
+Redirect permanent /1.0/ghostly/gi18.shtml http://ghostly.com/releases/twine
+Redirect permanent /1.0/ghostly/gi17.shtml http://ghostly.com/releases/push
+Redirect permanent /1.0/ghostly/gi16.shtml http://ghostly.com/releases/world-series-of-love
+Redirect permanent /1.0/ghostly/gi15.shtml http://ghostly.com/releases/when-the-blood-turns-black
+Redirect permanent /1.0/ghostly/gi14.shtml http://ghostly.com/releases/disco-nouveau-addendum
+Redirect permanent /1.0/ghostly/itry/index.shtml http://ghostly.com/releases/idol-tryouts-1
+Redirect permanent /1.0/ghostly/gi12.shtml http://ghostly.com/releases/payback
+Redirect permanent /1.0/ghostly/gi11.shtml http://ghostly.com/releases/panes
+Redirect permanent /1.0/ghostly/gi10.shtml http://ghostly.com/releases/specifics
+Redirect permanent /1.0/ghostly/gi9.shtml http://ghostly.com/releases/bang-bang-lover
+Redirect permanent /1.0/ghostly/gi3.shtml http://ghostly.com/releases/mind-your-manners
+Redirect permanent /1.0/ghostly/gi2.shtml http://ghostly.com/releases/selections-from-one-three
+Redirect permanent /1.0/ghostly/gi1.shtml http://ghostly.com/releases/one-three
+Redirect permanent /1.0/ghostly/ghs001.shtml http://ghostly.com/releases/hands-up-for-detroit
+
+# SPECTRAL ALBUMS
+Redirect permanent /1.0/spectral/spc060.shtml http://ghostly.com/releases/billy-says-go
+Redirect permanent /1.0/spectral/spc059.shtml http://ghostly.com/releases/death-is-nothing-to-dear-4
+Redirect permanent /1.0/spectral/spc058.shtml http://ghostly.com/releases/det-ep
+Redirect permanent /1.0/spectral/spc057.shtml http://ghostly.com/releases/she-said-ep
+Redirect permanent /1.0/spectral/spc055.shtml http://ghostly.com/releases/beginning-of-the-end
+Redirect permanent /1.0/spectral/spc054.shtml http://ghostly.com/releases/osborne
+Redirect permanent /1.0/spectral/spc053.shtml http://ghostly.com/releases/ruling-ep
+Redirect permanent /1.0/spectral/spc052.shtml http://ghostly.com/releases/like-no-one
+Redirect permanent /1.0/spectral/spc049.shtml http://ghostly.com/releases/death-is-nothing-to-fear-3
+Redirect permanent /1.0/spectral/spc048.shtml http://ghostly.com/releases/continuate
+Redirect permanent /1.0/spectral/spc047.shtml http://ghostly.com/releases/meine-idee-ep
+Redirect permanent /1.0/spectral/spc046.shtml http://ghostly.com/releases/dintf-ep
+Redirect permanent /1.0/spectral/spc045.shtml http://ghostly.com/releases/outta-sight
+Redirect permanent /1.0/spectral/spc044.shtml http://ghostly.com/releases/noiser-freds-bells
+Redirect permanent /1.0/spectral/spc043.shtml http://ghostly.com/releases/death-is-nothing-to-fear-2
+Redirect permanent /1.0/spectral/spc042.shtml http://ghostly.com/releases/mouth-to-mouth-remixes
+Redirect permanent /1.0/spectral/spc041.shtml http://ghostly.com/releases/paajaasa
+Redirect permanent /1.0/spectral/spc040.shtml http://ghostly.com/releases/death-is-nothing-to-fear-1
+Redirect permanent /1.0/spectral/spc039.shtml http://ghostly.com/releases/mouth-to-mouth
+Redirect permanent /1.0/spectral/spc038.shtml http://ghostly.com/releases/pt-2
+Redirect permanent /1.0/spectral/spc037.shtml http://ghostly.com/releases/the-conservation-of-electric-charge
+Redirect permanent /1.0/spectral/spc036.shtml http://ghostly.com/releases/just-a-man-woman
+Redirect permanent /1.0/spectral/spc035.shtml http://ghostly.com/releases/oochie-coo
+Redirect permanent /1.0/spectral/spc034.shtml http://ghostly.com/releases/pt-1
+Redirect permanent /1.0/spectral/spc033.shtml http://ghostly.com/releases/suckfish
+Redirect permanent /1.0/spectral/spc032.shtml http://ghostly.com/releases/the-roll
+Redirect permanent /1.0/spectral/spc031.shtml http://ghostly.com/releases/das-element
+Redirect permanent /1.0/spectral/spc030.shtml http://ghostly.com/releases/just-fucking-ep
+Redirect permanent /1.0/spectral/spc029.shtml http://ghostly.com/releases/etsche
+Redirect permanent /1.0/spectral/spc028.shtml http://ghostly.com/releases/state-of-the-union-2
+Redirect permanent /1.0/spectral/spc027.shtml http://ghostly.com/releases/liquid-sex
+Redirect permanent /1.0/spectral/spc026.shtml http://ghostly.com/releases/opening-night
+Redirect permanent /1.0/spectral/spc025/index.shtml http://ghostly.com/releases/spectral-sound-vol-1
+Redirect permanent /1.0/spectral/spc024.shtml http://ghostly.com/releases/the-pong-ep
+Redirect permanent /1.0/spectral/spc023.shtml http://ghostly.com/releases/awt
+Redirect permanent /1.0/spectral/spc022.shtml http://ghostly.com/releases/the-tic-tac-tactic
+Redirect permanent /1.0/spectral/spc021.shtml http://ghostly.com/releases/backstroke
+Redirect permanent /1.0/spectral/spc020.shtml http://ghostly.com/releases/afrika
+Redirect permanent /1.0/spectral/spc019.shtml http://ghostly.com/releases/ince
+Redirect permanent /1.0/spectral/spc018.shtml http://ghostly.com/releases/the-dancing-box
+Redirect permanent /1.0/spectral/spc017.shtml http://ghostly.com/releases/searoom-ep
+Redirect permanent /1.0/spectral/spc016.shtml http://ghostly.com/releases/press-your-body-ep
+Redirect permanent /1.0/spectral/spc015.shtml http://ghostly.com/releases/kisses-ep
+Redirect permanent /1.0/spectral/spc014.shtml http://ghostly.com/releases/bout-ready-to-jak-remixes
+Redirect permanent /1.0/spectral/spc013.shtml http://ghostly.com/releases/anger-management
+Redirect permanent /1.0/spectral/spc012.shtml http://ghostly.com/releases/machines-for-lovers
+Redirect permanent /1.0/spectral/spc011.shtml http://ghostly.com/releases/leave-luck-to-heaven
+Redirect permanent /1.0/spectral/spc010.shtml http://ghostly.com/releases/dog-days
+Redirect permanent /1.0/spectral/spc009.shtml http://ghostly.com/releases/buck
+Redirect permanent /1.0/spectral/spc008.shtml http://ghostly.com/releases/daylight
+Redirect permanent /1.0/spectral/spc007.shtml http://ghostly.com/releases/ep2
+Redirect permanent /1.0/spectral/spc006.shtml http://ghostly.com/releases/ep1
+Redirect permanent /1.0/spectral/spc005.shtml http://ghostly.com/releases/state-of-the-union
+Redirect permanent /1.0/spectral/spc004.shtml http://ghostly.com/releases/bout-ready-to-jak
+Redirect permanent /1.0/spectral/spc003.shtml http://ghostly.com/releases/stealing-moves
+Redirect permanent /1.0/spectral/spc002.shtml http://ghostly.com/releases/carrier-wave
+Redirect permanent /1.0/spectral/spc001.shtml http://ghostly.com/releases/irreparably-dented
