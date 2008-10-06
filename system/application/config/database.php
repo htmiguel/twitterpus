@@ -37,10 +37,10 @@
 $active_group = "default";
 $active_record = TRUE;
 
-$db['default']['hostname'] = "internal-db.s13634.gridserver.com";
-$db['default']['username'] = "db13634";
-$db['default']['password'] = "miguelangel";
-$db['default']['database'] = "db13634_twitter";
+$db['default']['hostname'] = "";
+$db['default']['username'] = "";
+$db['default']['password'] = "";
+$db['default']['database'] = "";
 $db['default']['dbdriver'] = "mysql";
 $db['default']['dbprefix'] = "";
 $db['default']['pconnect'] = TRUE;
